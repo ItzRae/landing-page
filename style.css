@@ -1,0 +1,172 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body {
+    text-align: center;
+}
+
+.top, a {
+    color: #f9faf8;
+    background-color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.hero-main {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.hero-secondary {
+    color: #e5e7eb;
+    font-size: 12px;
+}
+
+.text {
+    font-size: 12px;
+    margin: 5px 0 5px;
+    line-height: 18px;
+    
+}
+
+.header-info {
+    max-width: 400px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+
+.header-links {
+    display: flex;
+    gap: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 0;
+    font-size: 20px;
+    margin: 0 70px;
+}
+
+.header-button {
+    width: 95px;
+    height: 30px;
+    margin: 10px 0 0 5px;
+    border-radius: 4px;
+    background-color: #3882f6;
+    padding: 0;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    border: 3px solid #3882f6;
+}
+
+
+.header-img {
+    margin-left: 20px;
+    flex-shrink: 0;
+    width: 370px;
+    height: 180px;
+}
+
+
+.header-main {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.info {
+    max-width: 100px;
+}
+
+.quote {
+    background-color: #e5e7e5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.quote-text {
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 600px;
+    text-align: left;
+}
+
+.author {
+    font-weight: bold;
+    margin-left: 60%;
+}
+
+.sign-up {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    border: 1px solid #f9faf8;
+    border-radius: 3px;
+    width: 80px;
+    padding: 4px;
+}
+
+.sign-up-text {
+    max-width: 400px;
+
+}
+
+.sign-up-header {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.sign-up-header::after {
+    content: '\a';
+    white-space: pre;
+}
+
+.sign-up-item {
+    border-radius: 4px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 30px;
+    width: 60%;
+}
